@@ -102,3 +102,45 @@ Each JSONL line:
 {"prompt": "make the sky sunset orange", "image": "images/example.jpg", "requirement": "preserve identity"}
 ```
 
+## Evaluation
+
+The code and data for **FIRM-Bench** are hosted on [Hugging Face](https://huggingface.co/datasets/zpy777/FIRM-Bench).
+
+We provide inference and evaluation scripts for **FIRM-Bench**. We recommend deploying the model with vLLM for inference.
+
+
+### FIRM-Bench-Edit
+
+#### Inference
+```python
+python FIRM-Bench-Edit/vllm_infer.py \
+  --input FIRM-Bench-Edit/bench_v1.jsonl \
+  --output FIRM-Bench-Edit/result/xxx.jsonl \
+  --image-root FIRM-Bench-Edit/ \
+  --api-url xxxxx
+```
+
+#### MAE Calculation
+```python
+python FIRM-Bench-Edit/edit_mae.py \
+  --gt FIRM-Bench-Edit/result/human_bench_v1.jsonl \
+  --pred FIRM-Bench-Edit/result/xxx.jsonl
+```
+
+### FIRM-Bench-Gen
+
+#### Inference
+```python
+python FIRM-Bench-Gen/vllm_infer.py \
+  --input FIRM-Bench-Gen/bench_v1.jsonl \
+  --output FIRM-Bench-Gen/result/xxx.jsonl \
+  --image-root FIRM-Bench-Gen/ \
+  --api-url xxxxx
+```
+
+#### MAE Calculation
+```python
+python FIRM-Bench-Gen/gen_mae.py \
+  --gt FIRM-Bench-Gen/result/human_bench_v1.jsonl \
+  --pred FIRM-Bench-Gen/result/xxx.jsonl
+```
