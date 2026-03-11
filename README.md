@@ -3,7 +3,7 @@
 ## Repository Layout
 
 ```text
-TrustYourCritic/
+FIRM-Reward/
 ├── generation/   # GenerationRL training and reward serving
 └── editing/      # EditRL training, reward serving, reproduction scripts
 ```
