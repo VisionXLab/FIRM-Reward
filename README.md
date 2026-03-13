@@ -5,10 +5,9 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2603.12247"><img src="https://img.shields.io/badge/Paper-Arxiv-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper Arxiv"></a>
   <a href="https://firm-reward.github.io/"><img src="https://img.shields.io/badge/Project-Page-1F6FEB?style=for-the-badge&logo=bookstack&logoColor=white" alt="Chinese Reproduction Notes"></a>
+  <a href="https://huggingface.co/collections/VisionXLab/firm-reward"><img src="https://img.shields.io/badge/Model-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments"></a>
 <a href="https://huggingface.co/collections/VisionXLab/firm-reward">
-  <img src="https://img.shields.io/badge/Model-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments">
-  <img src="https://img.shields.io/badge/Dataset-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments">
-</a>
+  <img src="https://img.shields.io/badge/Dataset-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments"></a>
 </p>
 
 
