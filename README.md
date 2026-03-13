@@ -3,10 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Robust%20Reward%20Modeling-A6543D?style=flat-square" alt="Focus: Robust Reward Modeling">
-  <img src="https://img.shields.io/badge/Tasks-Image%20Editing%20%2B%20T2I%20Generation-166A5C?style=flat-square" alt="Tasks: Image Editing and T2I Generation">
-  <img src="https://img.shields.io/badge/Benchmark-FIRM--Bench%20(807%20samples)-6D5A96?style=flat-square" alt="Benchmark: FIRM-Bench">
-  <img src="https://img.shields.io/badge/Status-Research%20Codebase-333333?style=flat-square" alt="Status: Research Codebase">
+  <a href="https://arxiv.org/abs/2603.12247"><img src="https://img.shields.io/badge/Paper-Arxiv-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper Arxiv"></a>
+  <a href="https://firm-reward.github.io/"><img src="https://img.shields.io/badge/Project-Page-1F6FEB?style=for-the-badge&logo=bookstack&logoColor=white" alt="Chinese Reproduction Notes"></a>
+<a href="https://huggingface.co/collections/VisionXLab/firm-reward">
+  <img src="https://img.shields.io/badge/Model-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments">
+  <img src="https://img.shields.io/badge/Dataset-huggingface-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white" alt="Acknowledgments">
+</a>
+</p>
+
+
 </p>
 
 <p align="center">
@@ -14,7 +19,7 @@
 </p>
 
 
-## Why This Repo
+## Why This Project
 
 - **Critics are the bottleneck.** FIRM is built around the idea that RL for visual generation only works when the reward model is faithful, stable, and hard to hack.
 - **Two task-specific data pipelines.** `FIRM-Edit` uses a difference-first scoring pipeline, while `FIRM-Gen` uses a plan-then-score pipeline to reduce MLLM hallucinations.
@@ -23,13 +28,13 @@
 
 ## FIRM At A Glance
 
-| Component | What it adds |
-| --- | --- |
-| `FIRM-Edit-370K` | Large-scale editing reward data with separate execution and consistency supervision. |
-| `FIRM-Gen-293K` | Structured generation reward data built from prompt-specific checklists. |
-| `FIRM-Edit-8B` / `FIRM-Gen-8B` | Reward models specialized for faithful editing and instruction-following generation. |
-| `FIRM-Bench` | 807 human-annotated samples spanning editing execution, editing consistency, and generation alignment. |
-| `CME` / `QMA` | Base-and-bonus reward formulations for editing RL and generation RL. |
+| Component | 
+| --- |
+| `FIRM-Edit-370K` |
+| `FIRM-Gen-293K` |
+| `FIRM-Edit-8B` / `FIRM-Gen-8B` | 
+| `FIRM-Bench` |
+| `FIRM-Qwen-Edit` / `FIRM-SD-3.5` |
 
 ## Repository Layout
 
