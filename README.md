@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="editing/assets/FIRM_reward.png" alt="Trust Your Critic hero card" width="30%">
+  <img src="editing/assets/FIRM_reward.png" alt="Trust Your Critic hero card" width="50%">
 </p>
 
 <p align="center">
